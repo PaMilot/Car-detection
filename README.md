@@ -8,7 +8,7 @@ own_model.ipynb is an <b>ONGOING</b> project. I'm trying to build a custom NN tr
 own_model.ipynb does NOT work, i am pushing versions so i can work from different workstations. <br>
 <br>
 <br>
-References :
+References :<br>
 https://giou.stanford.edu/GIoU.pdf (GIoU) <br>
 https://cdn.aaai.org/ojs/6999/6999-13-10228-1-10-20200525.pdf (DIoU / CIoU)
 
