@@ -11,9 +11,8 @@ I am also using this project to start reading more scientific papers, and implem
 - [own-model.ipynb] aims to create our own model to detect those cars. For now it is a CNN, that we update frequently and that we evaluate on an IoU score.<br>
 This is an <b>ONGOING</b> project, the notebook is not well organized yet. (see kaggle repository to see more organized code)<br>
 <br>
-<br>
-<br>
-References :<br>
+
+## References
 https://giou.stanford.edu/GIoU.pdf (GIoU) <br>
 https://cdn.aaai.org/ojs/6999/6999-13-10228-1-10-20200525.pdf (DIoU / CIoU)
 
