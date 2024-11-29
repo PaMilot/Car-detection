@@ -12,9 +12,24 @@ I am also using this project to start reading more scientific papers, and implem
 This is an <b>ONGOING</b> project, the notebook is not well organized yet. (see kaggle repository to see more organized code)<br>
 <br>
 
+## Early Results
+Our latest model reached at its best around 0.14 IoU, generating such prediction on the test set :
+![good_prediction]((https://ibb.co/DYpVN2n))
+
+But also generating bounding boxes like this one :
+![bad_prediction](https://ibb.co/r3dYgcP)
+
+## Ameliorations
+Non-exhaustive list of ameliorations hints :
+- Implementing GIoU loss function (and perhaps metric) from [Rezatofighi et al.](https://giou.stanford.edu/GIoU.pdf) (2019)
+- Testing other loss functions (D-IoU, L1-smooth)
+- Testing asymetrical kernel sizes and deeper models
+
 ## References
-https://giou.stanford.edu/GIoU.pdf (GIoU) <br>
-https://cdn.aaai.org/ojs/6999/6999-13-10228-1-10-20200525.pdf (DIoU / CIoU)
+- [Generalized Intersection over Union: A Metric and A Loss for Bounding Box
+Regression](https://giou.stanford.edu/GIoU.pdf) <br>
+- [Distance-IoU Loss: Faster and Better Learning for Bounding Box Regression](https://cdn.aaai.org/ojs/6999/6999-13-10228-1-10-20200525.pdf)
+- Classic Computer Vision papers (LeNet, ALexNet,...)
 
 ## Data
 https://www.kaggle.com/datasets/sshikamaru/car-object-detection/data
