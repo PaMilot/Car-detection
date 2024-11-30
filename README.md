@@ -24,6 +24,8 @@ Non-exhaustive list of ameliorations hints :
 - Implementing GIoU loss function (and perhaps metric) from [Rezatofighi et al.](https://giou.stanford.edu/GIoU.pdf) (2019)
 - Testing other loss functions (D-IoU, L1-smooth)
 - Testing asymetrical kernel sizes and deeper models
+- Model ensembling
+- Control weight initialization 
 
 ## References
 - [Generalized Intersection over Union: A Metric and A Loss for Bounding Box
