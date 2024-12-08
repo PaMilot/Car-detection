@@ -17,7 +17,7 @@ This is an <b>ONGOING</b> project, the notebook is not well organized yet. (see 
 | :------- | :-----: | :-----: | :-----: | :-----: |
 | Best IoU | 0.076   | 0.143   | 0.188   |  0.190  |
 
-Our latest model reached at its best around 0.14 IoU, generating such prediction on the test set :<br>
+Our latest model reached at its best around 0.19 IoU, generating such prediction on the test set :<br>
 [![20JAC4j.md.png](https://iili.io/20JAC4j.md.png)](https://freeimage.host/i/20JAC4j)
 
 But also generating bounding boxes like this one :<br>
